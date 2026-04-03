@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #111;
+  background: #ffffff;
+}
+
+/* TOPO */
+.topo {
+  min-height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)),
+    url("https://images.unsplash.com/photo-1587300003388-59208cc962cb");
+  background-size: cover;
+  background-position: center;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  color: white;
+  padding-top: 180px;
+  padding-bottom: 10px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+
+/* BOTÃO WHATSAPP */
+.btn-whatsapp {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 18px 40px;
+  background: #129f4a;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  background: #129f4a;
+  transform: translateY(-3px);
+}
+
+/* SOBRE */
+.sobre {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 80px 60px;
+}
+
+.sobre-img img {
+  width: 350px;
+  border-radius: 18px;
+}
+
+.sobre-texto h2 {
+  color: #129f4a;
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.sobre-texto h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.sobre-texto p {
+  font-size: 18px;
+  color: #444;
+  max-width: 600px;
+}
+
+/* SERVIÇOS */
+.servicos {
+  padding: 80px 60px;
+  background: #f8f8f8;
+}
+
+.servicos h2 {
+  text-align: center;
+  color: #129f4a;
+  font-size: 42px;
+  margin-bottom: 50px;
+}
+
+.grid-servicos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.box {
+  background: #111;
+  color: white;
+  padding: 30px;
+  border-radius: 18px;
+  transition: 0.3s ease;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+.box h3 {
+  color: #129f4a;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.box p {
+  color: #ddd;
+}
+
+/* GALERIA */
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 80px 60px;
+}
+
+.galeria h2 {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #129f4a;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.galeria img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  background: #111;
+  padding: 5px;
+  border-radius: 18px;
+  transition: 0.3s ease;
+}
+
+.galeria img:hover {
+  transform: scale(1.03);
+}
+
+/* BOTÃO FINAL */
+.agendamento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+/* FOOTER */
+footer {
+  background: #111;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: "trebuchet MS", Arial, sans-serif;
+
+  
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+
+  .sobre {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+
+  .sobre-img img {
+    width: 100%;
+  }
+
+  .grid-servicos {
+    grid-template-columns: 1fr;
+  }
+
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px 20px;
+  }
+
+  .galeria img {
+    height: 180px;
+  }
+}
