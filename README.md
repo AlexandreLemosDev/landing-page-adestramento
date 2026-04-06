@@ -18,6 +18,10 @@ Landing page desenvolvida para divulgação de serviços de adestramento canino,
 ## ▶️ Como executar
 Abra o arquivo `index.html` no navegador
 
+## 📷 Preview
+
+![Preview do projeto](preview.png)
+
 
 ## 📚 Aprendizados
 Neste projeto foram aplicados conceitos de criação de landing pages voltadas para vendas, organização de conteúdo e experiência do usuário.
