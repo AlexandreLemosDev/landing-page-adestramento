@@ -22,6 +22,9 @@ Abra o arquivo `index.html` no navegador
 
 ![Preview do projeto](preview.png)
 
+## 🔗 Acesse o projeto
+https://alexandrelemosdev.github.io/landing-page-adestramento/
+
 
 ## 📚 Aprendizados
 Neste projeto foram aplicados conceitos de criação de landing pages voltadas para vendas, organização de conteúdo e experiência do usuário.
