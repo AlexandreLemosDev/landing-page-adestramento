@@ -21,3 +21,6 @@ Abra o arquivo `index.html` no navegador
 
 ## 📚 Aprendizados
 Neste projeto foram aplicados conceitos de criação de landing pages voltadas para vendas, organização de conteúdo e experiência do usuário.
+
+## 💼 Projeto Real
+Landing page desenvolvida para cliente real, com foco em divulgação de serviços e geração de contatos.
